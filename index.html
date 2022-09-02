@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
             <a class="navbar-brand mx-md-2" href="#">
-                <img src="frontend/images/logo.png" alt="">
+                <img src="frontend/images/logo@2x.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -45,13 +45,14 @@
                     </li>
                 </ul>
                 <!-- Mobile Button -->
-                <form action="" class="form-inline d-sm-block d-md-none">
-                    <button class="btn btn-login btn-navbar-right my-sm-0 px-4 my-2">
-                        Masuk
-                    </button>
+                <form action="" class="form-inline d-sm-block d-lg-none mx-md-2">
+                <div class="d-grid">
+                    <button class="btn btn-login mt-sm-0 px-4 my-2" type="button">Masuk</button>
+                </div>
                 </form>
+
                 <!-- Desktop Button -->
-                <form action="" class="form-inline my-2 my-lg-0 d-none d-md-block">
+                <form action="" class="form-inline my-2 my-lg-0 d-none d-lg-block">
                     <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
                         Masuk
                     </button>
@@ -62,5 +63,6 @@
 </div>
 <script src="frontend/libraries/jquery/jquery-3.6.1.min.js"></script>
 <script src="frontend/libraries/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="frontend/libraries/retina-js/retina.min.js"></script>
 </body>
 </html>
