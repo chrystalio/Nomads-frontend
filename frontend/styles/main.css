@@ -64,12 +64,12 @@ header p {
   font-size: 22px;
 }
 header .btn-get-started {
-  background-color: #ff9e53;
-  color: #fff;
+  background-color: #ff9e53 !important;
+  color: #fff !important;
 }
 header .btn-get-started:hover {
-  background-color: #ffaa69;
-  color: #fff;
+  background-color: #ffaa69 !important;
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=main.css.map */
