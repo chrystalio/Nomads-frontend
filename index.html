@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="frontend/styles/main.css">
 </head>
 <body>
-<div class="container">
+<!-- Navbar desktop -->
+<div class="container d-none d-md-none d-lg-block">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
             <a class="navbar-brand mx-md-2" href="#">
@@ -47,13 +48,13 @@
                 <!-- Mobile Button -->
                 <form action="" class="form-inline d-sm-block d-lg-none mx-md-2">
                 <div class="d-grid">
-                    <button class="btn btn-login mt-sm-0 px-4 my-2" type="button">Masuk</button>
+                    <button class="btn btn-login-mobile mt-sm-0 px-4 my-2 btn-lg" type="button">Masuk</button>
                 </div>
                 </form>
 
                 <!-- Desktop Button -->
                 <form action="" class="form-inline my-2 my-lg-0 d-none d-lg-block">
-                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                    <button class="btn btn-login-desktop btn-navbar-right my-2 my-sm-0 px-4">
                         Masuk
                     </button>
                 </form>
@@ -61,6 +62,63 @@
         </div>
     </nav>
 </div>
+
+<!--Navbar mobile -->
+<div class="d-lg-none">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-md-2" href="#">
+                <img src="frontend/images/logo@2x.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto me-3">
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link" href="#">Paket Travel</a>
+                    </li>
+                    <li class="nav-item dropdown mx-md-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link" href="#">Testimonial</a>
+                    </li>
+                </ul>
+                <!-- Mobile Button -->
+                <form action="" class="form-inline d-sm-block d-lg-none mx-md-2">
+                    <div class="d-grid">
+                        <button class="btn btn-login-mobile" type="button">Masuk</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<!-- Header -->
+<header class="text-center">
+    <h1>
+        Explore The Beautiful World <br> As Easy One Click
+    </h1>
+    <p class="mt-3">You will see beautiful <br> moment you've never seen before</p>
+    <a href="#" class="btn-get-started btn px-4 mt-4 border-0">
+        Get Started
+    </a>
+</header>
+
+
 <script src="frontend/libraries/jquery/jquery-3.6.1.min.js"></script>
 <script src="frontend/libraries/bootstrap/js/bootstrap.bundle.js"></script>
 <script src="frontend/libraries/retina-js/retina.min.js"></script>
