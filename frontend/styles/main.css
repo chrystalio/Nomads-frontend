@@ -73,13 +73,10 @@ header .btn-get-started:hover {
 }
 
 .section-popular {
-  min-height: 540px;
   background-color: #051334;
-  margin-top: -65px;
-  margin-bottom: -230px;
 }
 .section-popular .section-popular-heading {
-  margin-top: 150px;
+  margin-top: 30px;
 }
 .section-popular h2, .section-popular p {
   color: #fff;
