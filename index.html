@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="frontend/styles/main.css">
 </head>
 <body>
@@ -20,7 +22,8 @@
             <a class="navbar-brand mx-md-2" href="#">
                 <img src="frontend/images/logo@2x.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -32,7 +35,8 @@
                         <a class="nav-link" href="#">Paket Travel</a>
                     </li>
                     <li class="nav-item dropdown mx-md-2">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -47,9 +51,9 @@
                 </ul>
                 <!-- Mobile Button -->
                 <form action="" class="form-inline d-sm-block d-lg-none mx-md-2">
-                <div class="d-grid">
-                    <button class="btn btn-login-mobile mt-sm-0 px-4 my-2 btn-lg" type="button">Masuk</button>
-                </div>
+                    <div class="d-grid">
+                        <button class="btn btn-login-mobile mt-sm-0 px-4 my-2 btn-lg" type="button">Masuk</button>
+                    </div>
                 </form>
 
                 <!-- Desktop Button -->
@@ -65,12 +69,13 @@
 
 <!--Navbar mobile -->
 <div class="d-lg-none">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand mx-md-2" href="#">
                 <img src="frontend/images/logo@2x.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -82,7 +87,8 @@
                         <a class="nav-link" href="#">Paket Travel</a>
                     </li>
                     <li class="nav-item dropdown mx-md-2">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -117,6 +123,34 @@
         Get Started
     </a>
 </header>
+<main>
+    <div class="container">
+        <section class="section-stats">
+            <div class="row gap-lg-5 mx-lg-auto">
+                <div class="col-6 col-md-2 stats-detail rounded-4 shadow-sm border-0">
+                    <i class="fa-solid fa-user"></i>
+                    <h2>20K</h2>
+                    <p>Members</p>
+                </div>
+                <div class="col-6 col-md-2 stats-detail rounded-4 shadow-sm border-0">
+                    <i class="fa-solid fa-earth-asia"></i>
+                    <h2>12</h2>
+                    <p>Countries</p>
+                </div>
+                <div class="col-6 col-md-2 stats-detail rounded-4 shadow-sm border-0">
+                    <i class="fa-solid fa-hotel"></i>
+                    <h2>3K</h2>
+                    <p>Hotels</p>
+                </div>
+                <div class="col-6 col-md-2 stats-detail rounded-4 shadow-sm border-0">
+                    <i class="fa-solid fa-handshake-simple"></i>
+                    <h2>72</h2>
+                    <p>Partners</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
 
 
 <script src="frontend/libraries/jquery/jquery-3.6.1.min.js"></script>
