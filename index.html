@@ -87,8 +87,7 @@
                         <a class="nav-link" href="#">Paket Travel</a>
                     </li>
                     <li class="nav-item dropdown mx-md-2">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -124,32 +123,104 @@
     </a>
 </header>
 <main>
-    <div class="container">
-        <section class="section-stats">
-            <div class="row gap-lg-5 mx-lg-auto">
-                <div class="col-6 col-md-2 stats-detail rounded-4 shadow-sm border-0">
-                    <i class="fa-solid fa-user"></i>
-                    <h2>20K</h2>
-                    <p>Members</p>
+
+<!-- Popular section-->
+    <section class="section-popular" id="popular">
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom text-center section-popular-heading">Popular Destinations</h2>
+            <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-5 py-5">
+                <div class="col">
+                    <a href="#" class="text-decoration-none">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('frontend/images/travel-1@2x.jpg'); background-repeat: no-repeat;">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://randomuser.me/api/portraits/med/men/72.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="fa-solid fa-map-pin me-1"></i>
+                                    <small>Japan</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="fa-solid fa-calendar-days me-2"></i>
+                                    <small>3d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </a>
                 </div>
-                <div class="col-6 col-md-2 stats-detail rounded-4 shadow-sm border-0">
-                    <i class="fa-solid fa-earth-asia"></i>
-                    <h2>12</h2>
-                    <p>Countries</p>
+
+                <div class="col">
+                    <a href="#" class="text-decoration-none">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('frontend/images/travel-2@2x.jpg'); background-repeat: no-repeat">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="fa-solid fa-map-pin me-1"></i>
+                                    <small>Pakistan</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="fa-solid fa-calendar-days me-2"></i>
+                                    <small>4d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </a>
                 </div>
-                <div class="col-6 col-md-2 stats-detail rounded-4 shadow-sm border-0">
-                    <i class="fa-solid fa-hotel"></i>
-                    <h2>3K</h2>
-                    <p>Hotels</p>
+                <div class="col">
+                    <a href="#" class="text-decoration-none">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('frontend/images/travel-3@2x.jpg'); background-repeat: no-repeat;">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://randomuser.me/api/portraits/med/men/71.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="fa-solid fa-map-pin me-1"></i>
+                                    <small>California</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="fa-solid fa-calendar-days me-2"></i>
+                                    <small>5d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </a>
                 </div>
-                <div class="col-6 col-md-2 stats-detail rounded-4 shadow-sm border-0">
-                    <i class="fa-solid fa-handshake-simple"></i>
-                    <h2>72</h2>
-                    <p>Partners</p>
+                <div class="col">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('frontend/images/travel-4@2x.jpg'); background-repeat: no-repeat;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="https://randomuser.me/api/portraits/med/men/80.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="fa-solid fa-map-pin me-1"></i>
+                                        <small>California</small>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <i class="fa-solid fa-calendar-days me-2"></i>
+                                        <small>2d</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
 </main>
 
 
