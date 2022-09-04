@@ -11,13 +11,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="frontend/styles/main.css">
 </head>
 <body>
 <!-- Navbar desktop -->
-<div class="container d-none d-md-none d-lg-block">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+<div class="container d-none d-md-none d-lg-block sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div class="container-fluid">
             <a class="navbar-brand mx-md-2" href="#">
                 <img src="frontend/images/logo@2x.png" alt="">
@@ -68,7 +70,7 @@
 </div>
 
 <!--Navbar mobile -->
-<div class="d-lg-none">
+<div class="d-lg-none sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand mx-md-2" href="#">
@@ -87,7 +89,8 @@
                         <a class="nav-link" href="#">Paket Travel</a>
                     </li>
                     <li class="nav-item dropdown mx-md-2">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -123,100 +126,98 @@
     </a>
 </header>
 <main>
-
-<!-- Popular section-->
+    <div class="container">
+        <section class="section-stats row justify-content-center " id="stats">
+            <div class="col-3 col-md-2 stats-detail">
+                <h2>20K</h2>
+                <p>Members</p>
+            </div>
+            <div class="col-3 col-md-2 stats-detail">
+                <h2>12</h2>
+                <p>Countries</p>
+            </div>
+            <div class="col-3 col-md-2 stats-detail">
+                <h2>3K</h2>
+                <p>Hotels</p>
+            </div>
+            <div class="col-3 col-md-2 stats-detail">
+                <h2>72</h2>
+                <p>Partners</p>
+            </div>
+        </section>
+    </div>
     <section class="section-popular" id="popular">
-        <div class="container px-4 py-5" id="custom-cards">
-            <h2 class="pb-2 border-bottom text-center section-popular-heading">Popular Destinations</h2>
-            <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-5 py-5">
-                <div class="col">
-                    <a href="#" class="text-decoration-none">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('frontend/images/travel-1@2x.jpg'); background-repeat: no-repeat;">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="https://randomuser.me/api/portraits/med/men/72.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <i class="fa-solid fa-map-pin me-1"></i>
-                                    <small>Japan</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="fa-solid fa-calendar-days me-2"></i>
-                                    <small>3d</small>
-                                </li>
-                            </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center section-popular-heading">
+                    <h2>Wisata Popular</h2>
+                    <p>
+                        Something that you never try
+                        <br/>
+                        before in this world
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-popular-content" id="popularContent">
+        <div class="container">
+            <div class="section-popular-travel row justify-content-center ">
+                <div class="col-sm-6 col-md-4 col-lg-3 ">
+                    <div
+                            class="card-travel text-center d-flex flex-column rounded-4"
+                            style="background-image: url('frontend/images/travel-1@2x.jpg');"
+                    >
+                        <div class="travel-country">INDONESIA</div>
+                        <div class="travel-location">DERATAN, BALI</div>
+                        <div class="travel-button mt-auto">
+                            <a href="details.html" class="btn btn-travel-details px-4">
+                                View Details
+                            </a>
                         </div>
                     </div>
-                    </a>
                 </div>
-
-                <div class="col">
-                    <a href="#" class="text-decoration-none">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('frontend/images/travel-2@2x.jpg'); background-repeat: no-repeat">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h2>
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <i class="fa-solid fa-map-pin me-1"></i>
-                                    <small>Pakistan</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="fa-solid fa-calendar-days me-2"></i>
-                                    <small>4d</small>
-                                </li>
-                            </ul>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div
+                            class="card-travel text-center d-flex flex-column rounded-4"
+                            style="background-image: url('frontend/images/travel-2@2x.jpg');"
+                    >
+                        <div class="travel-country">INDONESIA</div>
+                        <div class="travel-location">BROMO, MALANG</div>
+                        <div class="travel-button mt-auto">
+                            <a href="details.html" class="btn btn-travel-details px-4">
+                                View Details
+                            </a>
                         </div>
                     </div>
-                    </a>
                 </div>
-                <div class="col">
-                    <a href="#" class="text-decoration-none">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('frontend/images/travel-3@2x.jpg'); background-repeat: no-repeat;">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="https://randomuser.me/api/portraits/med/men/71.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <i class="fa-solid fa-map-pin me-1"></i>
-                                    <small>California</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="fa-solid fa-calendar-days me-2"></i>
-                                    <small>5d</small>
-                                </li>
-                            </ul>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div
+                            class="card-travel text-center d-flex flex-column rounded-4"
+                            style="background-image: url('frontend/images/travel-3@2x.jpg');"
+                    >
+                        <div class="travel-country">INDONESIA</div>
+                        <div class="travel-location">NUSA PENIDA</div>
+                        <div class="travel-button mt-auto">
+                            <a href="details.html" class="btn btn-travel-details px-4">
+                                View Details
+                            </a>
                         </div>
                     </div>
-                    </a>
                 </div>
-                <div class="col">
-                    <a href="#" class="text-decoration-none">
-                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('frontend/images/travel-4@2x.jpg'); background-repeat: no-repeat;">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="me-auto">
-                                        <img src="https://randomuser.me/api/portraits/med/men/80.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                                    </li>
-                                    <li class="d-flex align-items-center me-3">
-                                        <i class="fa-solid fa-map-pin me-1"></i>
-                                        <small>California</small>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <i class="fa-solid fa-calendar-days me-2"></i>
-                                        <small>2d</small>
-                                    </li>
-                                </ul>
-                            </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div
+                            class="card-travel text-center d-flex flex-column rounded-4"
+                            style="background-image: url('frontend/images/travel-4@2x.jpg');"
+                    >
+                        <div class="travel-country">DUBAI</div>
+                        <div class="travel-location">Burj Al Arab</div>
+                        <div class="travel-button mt-auto">
+                            <a href="details.html" class="btn btn-travel-details px-4">
+                                View Details
+                            </a>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
