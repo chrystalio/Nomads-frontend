@@ -2,6 +2,7 @@ body {
   background-color: #E4E6E8;
   font-family: 'Assistant', sans-serif;
   color: #071C4D;
+
 }
 
 // Navbar
@@ -88,57 +89,29 @@ header {
 }
 
 // Section statistics
-.section-stats{
-  margin-top: -65px;
 
-  .stats-detail{
-    padding-top: 15px;
-    background-color: #ffffff;
-    padding-left: 20px;
+
+// Section destination list
+.section-popular{
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -65px;
+  margin-bottom: -230px;
+
+  .section-popular-heading{
+    margin-top: 150px;
+  }
+
+  h2, p{
+    color: #fff;
   }
 
   h2{
-    font-size: 30px;
-    margin-bottom: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 35px;
   }
-
   p{
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 18px;
   }
-
-  // Small screens
-    @media (max-width: 767.98px) {
-        .stats-detail{
-            border: none;
-            border-radius: 0 !important;
-        }
-
-        h2{
-            font-size: 25px;
-        }
-        p{
-                font-size: 15px;
-          }
-        i{
-            font-size: 20px;
-            color: #0F3460;
-        }
-    }
-
-    //large screens
-    @media (min-width: 991.98px) {
-        .stats-detail{
-            border: none;
-            margin-left: 60px;
-
-          i{
-            font-size: 25px;
-            margin-right: 20px;
-            color: #0F3460;
-          }
-        }
-    }
-  }
-
-// Section destination list
+}
