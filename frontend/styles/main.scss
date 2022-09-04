@@ -89,7 +89,7 @@ header {
 
 // Section statistics
 .section-stats{
-  margin-top: -50px;
+  margin-top: -65px;
 
   .stats-detail{
     padding-top: 15px;
@@ -106,6 +106,8 @@ header {
     font-size: 20px;
     font-weight: lighter;
   }
+
+  // Small screens
     @media (max-width: 767.98px) {
         .stats-detail{
             border: none;
@@ -124,6 +126,7 @@ header {
         }
     }
 
+    //large screens
     @media (min-width: 991.98px) {
         .stats-detail{
             border: none;
@@ -135,7 +138,7 @@ header {
             color: #0F3460;
           }
         }
-
     }
-
   }
+
+// Section destination list
