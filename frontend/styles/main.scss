@@ -86,3 +86,56 @@ header {
     }
   }
 }
+
+// Section statistics
+.section-stats{
+  margin-top: -50px;
+
+  .stats-detail{
+    padding-top: 15px;
+    background-color: #ffffff;
+    padding-left: 20px;
+  }
+
+  h2{
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  p{
+    font-size: 20px;
+    font-weight: lighter;
+  }
+    @media (max-width: 767.98px) {
+        .stats-detail{
+            border: none;
+            border-radius: 0 !important;
+        }
+
+        h2{
+            font-size: 25px;
+        }
+        p{
+                font-size: 15px;
+          }
+        i{
+            font-size: 20px;
+            color: #0F3460;
+        }
+    }
+
+    @media (min-width: 991.98px) {
+        .stats-detail{
+            border: none;
+            margin-left: 60px;
+
+          i{
+            font-size: 25px;
+            margin-right: 20px;
+            color: #0F3460;
+          }
+        }
+
+    }
+
+  }
