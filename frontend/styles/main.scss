@@ -92,34 +92,6 @@ header {
   }
 }
 
-// Section statistics
-
-
-// Section destination list
-//.section-popular{
-//  //min-height: 540px;
-//  background-color: #051334;
-//  //margin-top: -65px;
-//  //margin-bottom: -230px;
-//
-//  .section-popular-heading{
-//    margin-top: 30px;
-//  }
-//
-//  h2, p{
-//    color: #fff;
-//  }
-//
-//  h2{
-//    font-family: "Playfair Display", serif;
-//    font-weight: bold;
-//    font-size: 35px;
-//  }
-//  p{
-//    font-size: 18px;
-//  }
-//}
-
 // Stats
 .section-stats {
   margin-top: -50px;
@@ -196,5 +168,21 @@ header {
         }
       }
     }
+  }
+}
+
+.section-networks{
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+
+  h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+  }
+
+  img{
+    max-width: 100%;
   }
 }
