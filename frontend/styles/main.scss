@@ -33,12 +33,26 @@ body {
   }
 }
 
-.btn-login {
-  background-color: #071C4D;
-  color: #fff;
+.btn-login-desktop {
+  background-color: #071C4D !important;
+  color: #fff !important;
+  border: none !important;
 
   &:hover {
+    background-color: #1e3771 !important;
     color: #fff;
+    border: none !important;
+  }
+}
+
+.btn-login-mobile{
+    background-color: #071C4D !important;
+    color: #fff !important;
+    border: none !important;
+  &:hover {
+        background-color: #1e3771 !important;
+        color: #fff !important;
+        border: none !important;
   }
 }
 
@@ -62,16 +76,17 @@ header {
   p {
     font-size: 22px;
   }
-
-  .btn-get-started {
-    background-color: #FF9E53;
+.btn-get-started {
+    background-color: #FF9E53 !important;
     color: #fff;
 
     &:hover {
+      background-color: #FFAA69 !important;
       color: #fff;
     }
   }
 }
+
 
 // Stats
 .section-stats {
@@ -168,7 +183,7 @@ header {
   }
 }
 
-.section-testimonials-heading {
+.section-testimonial-heading {
   background: linear-gradient(#fff 0%, #f7f9ff 100%);
   padding-top: 50px;
   min-height: 506px;
@@ -176,10 +191,68 @@ header {
   h2 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    font-size: 40px;
   }
 
   p {
     font-size: 18px;
   }
 }
+
+.section-testimonial-content{
+  margin-top: -300px;
+  padding-bottom: 50px;
+
+  .card-testimonial{
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+
+    .testimonial-content{
+      min-height: 380px;
+    }
+
+    h3{
+      font-size: 22px;
+    }
+
+    .testimonial{
+      font-weight: 200;
+      font-size: 26px;
+      color: #6e6e6e;
+      min-height: 160px;
+    }
+
+    .trip-to{
+      font-weight: normal;
+      font-size: 22px;
+      color: #6e6e6e;
+    }
+
+    hr{
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+}
+
+.btn-need-help {
+    background-color: #F4F4F4 !important;
+    color: #C3C3C3 !important;
+
+    &:hover {
+      background-color: #FAFAFA !important;
+      color: #C3C3C3;
+    }
+  }
+
+.btn-get-started {
+    background-color: #FF9E53 !important;
+    color: #fff;
+
+    &:hover {
+      background-color: #FFAA69 !important;
+      color: #fff;
+    }
+  }
 

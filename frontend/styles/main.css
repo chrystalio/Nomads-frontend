@@ -24,12 +24,26 @@ body {
   color: #071C4D !important;
 }
 
-.btn-login {
-  background-color: #071C4D;
-  color: #fff;
+.btn-login-desktop {
+  background-color: #071C4D !important;
+  color: #fff !important;
+  border: none !important;
 }
-.btn-login:hover {
+.btn-login-desktop:hover {
+  background-color: #1e3771 !important;
   color: #fff;
+  border: none !important;
+}
+
+.btn-login-mobile {
+  background-color: #071C4D !important;
+  color: #fff !important;
+  border: none !important;
+}
+.btn-login-mobile:hover {
+  background-color: #1e3771 !important;
+  color: #fff !important;
+  border: none !important;
 }
 
 header {
@@ -50,10 +64,11 @@ header p {
   font-size: 22px;
 }
 header .btn-get-started {
-  background-color: #FF9E53;
+  background-color: #FF9E53 !important;
   color: #fff;
 }
 header .btn-get-started:hover {
+  background-color: #FFAA69 !important;
   color: #fff;
 }
 
@@ -130,17 +145,67 @@ header .btn-get-started:hover {
   max-width: 100%;
 }
 
-.section-testimonials-heading {
+.section-testimonial-heading {
   background: linear-gradient(#fff 0%, #f7f9ff 100%);
   padding-top: 50px;
   min-height: 506px;
 }
-.section-testimonials-heading h2 {
+.section-testimonial-heading h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  font-size: 40px;
 }
-.section-testimonials-heading p {
+.section-testimonial-heading p {
   font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+}
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: 200;
+  font-size: 26px;
+  color: #6e6e6e;
+  min-height: 160px;
+}
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.btn-need-help {
+  background-color: #F4F4F4 !important;
+  color: #C3C3C3 !important;
+}
+.btn-need-help:hover {
+  background-color: #FAFAFA !important;
+  color: #C3C3C3;
+}
+
+.btn-get-started {
+  background-color: #FF9E53 !important;
+  color: #fff;
+}
+.btn-get-started:hover {
+  background-color: #FFAA69 !important;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
