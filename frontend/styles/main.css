@@ -35,7 +35,7 @@ body {
 header {
   margin-top: -68px;
   padding: 180px 0 165px;
-  background-image: url("../images/header-background.jpg");
+  background-image: url("../images/header-background@2x.jpg");
   background-size: cover;
 }
 header h1,
@@ -128,6 +128,19 @@ header .btn-get-started:hover {
 }
 .section-networks img {
   max-width: 100%;
+}
+
+.section-testimonials-heading {
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+.section-testimonials-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+.section-testimonials-heading p {
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=main.css.map */
