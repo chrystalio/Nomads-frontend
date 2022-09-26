@@ -45,14 +45,15 @@ body {
   }
 }
 
-.btn-login-mobile{
-    background-color: #071C4D !important;
+.btn-login-mobile {
+  background-color: #071C4D !important;
+  color: #fff !important;
+  border: none !important;
+
+  &:hover {
+    background-color: #1e3771 !important;
     color: #fff !important;
     border: none !important;
-  &:hover {
-        background-color: #1e3771 !important;
-        color: #fff !important;
-        border: none !important;
   }
 }
 
@@ -76,7 +77,8 @@ header {
   p {
     font-size: 22px;
   }
-.btn-get-started {
+
+  .btn-get-started {
     background-color: #FF9E53 !important;
     color: #fff;
 
@@ -199,37 +201,37 @@ header {
   }
 }
 
-.section-testimonial-content{
+.section-testimonial-content {
   margin-top: -300px;
   padding-bottom: 50px;
 
-  .card-testimonial{
+  .card-testimonial {
     padding: 40px 20px 10px;
     border-radius: 11px;
     margin-bottom: 20px;
 
-    .testimonial-content{
+    .testimonial-content {
       min-height: 380px;
     }
 
-    h3{
+    h3 {
       font-size: 22px;
     }
 
-    .testimonial{
+    .testimonial {
       font-weight: 200;
       font-size: 26px;
       color: #6e6e6e;
       min-height: 160px;
     }
 
-    .trip-to{
+    .trip-to {
       font-weight: normal;
       font-size: 22px;
       color: #6e6e6e;
     }
 
-    hr{
+    hr {
       margin-left: -20px;
       margin-right: -20px;
     }
@@ -237,49 +239,52 @@ header {
 }
 
 .btn-need-help {
-    background-color: #F4F4F4 !important;
-    color: #C3C3C3 !important;
+  background-color: #F4F4F4 !important;
+  color: #C3C3C3 !important;
 
-    &:hover {
-      background-color: #FAFAFA !important;
-      color: #C3C3C3;
-    }
+  &:hover {
+    background-color: #FAFAFA !important;
+    color: #C3C3C3;
   }
+}
 
 .btn-get-started {
-    background-color: #FF9E53 !important;
+  background-color: #FF9E53 !important;
+  color: #fff;
+
+  &:hover {
+    background-color: #FFAA69 !important;
     color: #fff;
-
-    &:hover {
-      background-color: #FFAA69 !important;
-      color: #fff;
-    }
   }
+}
 
-.section-footer{
+.section-footer {
   a {
     color: #071C4D;
     text-decoration: none;
   }
 }
 
-.section-details-header{
+.section-details-header {
   min-height: 310px;
   background: #E4E6EB;
   margin-top: -70px;
 }
 
-.section-details-content{
+.section-details-content {
   margin-top: -210px;
-  min-height: 100vh;
-  .breadcrumb{
+  min-height: 76vh;
+
+  .breadcrumb {
     background-color: transparent;
-    padding: 0;
+    //padding: 0;
+    padding-top: 300px;
     margin-bottom: 30px;
+    padding-left: 14px;
   }
 
-  .breadcrumb-item{
-    &.active{
+  .breadcrumb-item {
+    &.active {
       color: #071C4D;
       font-weight: bold;
     }

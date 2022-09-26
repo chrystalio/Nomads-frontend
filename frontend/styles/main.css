@@ -221,12 +221,13 @@ header .btn-get-started:hover {
 
 .section-details-content {
   margin-top: -210px;
-  min-height: 100vh;
+  min-height: 76vh;
 }
 .section-details-content .breadcrumb {
   background-color: transparent;
-  padding: 0;
+  padding-top: 300px;
   margin-bottom: 30px;
+  padding-left: 14px;
 }
 .section-details-content .breadcrumb-item.active {
   color: #071C4D;
