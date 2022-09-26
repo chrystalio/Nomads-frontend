@@ -213,4 +213,24 @@ header .btn-get-started:hover {
   text-decoration: none;
 }
 
+.section-details-header {
+  min-height: 310px;
+  background: #E4E6EB;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.section-details-content .breadcrumb-item.active {
+  color: #071C4D;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=main.css.map */

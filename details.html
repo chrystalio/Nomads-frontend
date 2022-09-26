@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body>
+<!-- Navbar desktop -->
+<div class="container d-none d-md-none d-lg-block sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-md-2" href="#">
+                <img src="frontend/images/logo@2x.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto me-3">
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link" href="#">Paket Travel</a>
+                    </li>
+                    <li class="nav-item dropdown mx-md-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link" href="#">Testimonial</a>
+                    </li>
+                </ul>
+                <!-- Mobile Button -->
+                <form action="" class="form-inline d-sm-block d-lg-none mx-md-2">
+                    <div class="d-grid">
+                        <button class="btn btn-login-mobile mt-sm-0 px-4 my-2 btn-lg" type="button">Masuk</button>
+                    </div>
+                </form>
+
+                <!-- Desktop Button -->
+                <form action="" class="form-inline my-2 my-lg-0 d-none d-lg-block">
+                    <button class="btn btn-login-desktop btn-navbar-right my-2 my-sm-0 px-4">
+                        Masuk
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--Navbar mobile -->
+<div class="d-lg-none sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-md-2" href="#">
+                <img src="frontend/images/logo@2x.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto me-3">
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link" href="#">Paket Travel</a>
+                    </li>
+                    <li class="nav-item dropdown mx-md-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link" href="#">Testimonial</a>
+                    </li>
+                </ul>
+                <!-- Mobile Button -->
+                <form action="" class="form-inline d-sm-block d-lg-none mx-md-2">
+                    <div class="d-grid">
+                        <button class="btn btn-login-mobile" type="button">Masuk</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<main>
+    <section class="section-details-header">
+    <section class="section-details-content">
+        <div class="container">
+            <div class="row">
+            <div class="col p-0">
+                <nav>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            Paket Travel
+                        </li>
+                        <li class="breadcrumb-item active">
+                            Details
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    </section>
+</main>
+
+<footer class="section-footer mt-5 mb-4 border-top">
+    <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-lg-3">
+                                <h5>FEATURES</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Reviews</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Community</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Social Media Kit</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Affiliate</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <h5>ACCOUNT</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Refund</a></li>
+                                    <li><a href="#">Security</a></li>
+                                    <li><a href="#">Rewards</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <h5>COMPANY</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Help Center</a></li>
+                                    <li><a href="#">Media</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <h5>Get Connected</h5>
+                                <ul class="list-unstyled">
+                                    <li>Batam Center</li>
+                                    <li>Indonesia</li>
+                                    <li>0877 - 1201 - 2658</li>
+                                    <li>support@nomads.id</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div
+                class="row border-top justify-content-center align-items-center pt-4"
+        >
+            <div class="col-auto text-gray-500 font-weight-light">
+                2022 Copyright Nomads • All rights reserved • Made in Batam
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="frontend/libraries/jquery/jquery-3.6.1.min.js"></script>
+<script src="frontend/libraries/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="frontend/libraries/retina-js/retina.min.js"></script>
+</body>
+</html>
